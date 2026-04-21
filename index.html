@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arbie Gutierrez Portfolio</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    p {
+      text-align: justify;
+    }
+
+    h1, h2, h3, h4 {
+      text-align: left;
+    }
+
+    header {
+      background: #d9d2cc;
+      padding: 15px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .container {
+      padding: 40px;
+    }
+
+    .hero {
+      display: flex;
+      gap: 50px;
+      align-items: center;
+    }
+
+    .hero img {
+      width: 300px;
+      border-radius: 10px;
+    }
+
+    .about {
+      margin-top: 20px;
+      display: flex;
+      gap: 35px;
+      align-items: center;
+      position: relative;
+      padding-bottom: 45px;
+    }
+
+    .about-bg {
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      width: 100%;
+      height: 100px;
+      background: #d9d2cc;
+      z-index: 0;
+    }
+
+    .about-content {
+      display: flex;
+      gap: 40px;
+      align-items: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .about img {
+      width: 250px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      transform: translateX(-15px); 
+    }
+
+    .projects {
+      margin-top: 60px;
+    }
+
+    .project-grid {
+      display: flex;
+      gap: 20px;
+    }
+
+    .project {
+      padding: 15px;
+      width: 45%;
+    }
+
+    .img-bg {
+      background: #e5dfda;
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    .project img {
+      width: 100%;
+      border-radius: 10px;
+      display: block;
+    }
+
+    .contact {
+      margin-top: 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 40px;
+    }
+
+    .contact-box {
+      background: #e5dfda;
+      padding: 20px;
+      border-radius: 10px;
+      width: 40%;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 14px;
+      background: #ddd;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <img src="logo.jpg" alt="Logo" width="50" height="50">
+
+  <nav>
+    <a href="#">HOME</a>
+    <a href="#">ABOUT</a>
+    <a href="#">PROJECTS</a>
+    <a href="#">CONTACTS</a>
+  </nav>
+</header>
+
+<div class="container">
+
+  <section class="hero">
+    <img src="prof1.jpg" alt="Profile">
+    <div>
+      <h2>HI!<br>I'M ARBIE GUTIERREZ</h2>
+      <p>I enjoy connecting with others, exploring new skills, and making ideas happen.</p>
+    </div>
+  </section>
+
+  <section class="about">
+
+    <div class="about-bg"></div>
+
+    <div class="about-content">
+      <div>
+        <h3>ABOUT ME</h3>
+        <p>
+          I am a second-year Computer Engineering Technology student who enjoys designing and sometimes participating in doing projects. I'm good at managing my time, and I always try to show dedication in every project I do. I like collaborating with others and taking on new challenges, it helps me learn and improve. I also hope to continue developing my skills and learning new technologies so I can grow in my field.
+        </p>
+      </div>
+
+      <img src="prof2.jpg" alt="Profile">
+
+    </div>
+
+  </section>
+
+  <section class="projects">
+    <h3>PROJECTS</h3>
+    <div class="project-grid">
+
+      <div class="project">
+        <div class="img-bg">
+          <img src="proj1.jpg" alt="Expo">
+        </div>
+        <h4>Expo Exhibit</h4>
+        <p>This project is an exhibit where I contributed by editing and designing the tarpaulin. I used my creativity to create a design that relates to our project theme. The exhibit focuses on different academic strands, where we explain why students may choose a certain strand and what it offers.</p>
+      </div>
+
+      <div class="project">
+        <div class="img-bg">
+          <img src="proj2.jpg" alt="CWTS">
+        </div>
+        <h4>Community Service in CWTS</h4>
+        <p>This project is a community outreach activity where our group selected one barangay and connected with 30 children as participants. We provided simple assistance with school supplies to support their education.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contact">
+
+    <div class="contact-box">
+      <h3>CONTACT ME</h3>
+      <p>📍 Marawoy, Lipa City</p>
+      <p>📞 09508718670</p>
+      <p>✉️ arbiegutierrez@gmail.com</p>
+    👤 <a href="https://facebook.com/arbie.gutierrez" target="_blank">Facebook</a>
+      <p></p>
+      📸 <a href="https://instagram.com/gtrrz_rb" target="_blank">Instagram</a> 
+    </div>
+
+    <div style="margin-top: 60px; margin-left: 70px;"> 
+      <h1>Hey There!</h1>
+      <p>
+        If you have any questions or want to collaborate,
+        feel free to message me anytime.
+      </p>
+    </div>
+
+  </section>
+
+</div>
+
+<footer>
+  © 2026 Arbie Gutierrez. All rights reserved.
+</footer>
+
+</body>
+</html>
