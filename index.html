@@ -4,136 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Arbie Gutierrez Portfolio</title>
-
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f5f5f5;
-      color: #333;
-    }
-
-    p {
-      text-align: justify;
-    }
-
-    h1, h2, h3, h4 {
-      text-align: left;
-    }
-
-    header {
-      background: #d9d2cc;
-      padding: 15px 40px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    header nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      color: #333;
-      font-weight: bold;
-    }
-
-    .container {
-      padding: 40px;
-    }
-
-    .hero {
-      display: flex;
-      gap: 50px;
-      align-items: center;
-    }
-
-    .hero img {
-      width: 300px;
-      border-radius: 10px;
-    }
-
-    .about {
-      margin-top: 20px;
-      display: flex;
-      gap: 35px;
-      align-items: center;
-      position: relative;
-      padding-bottom: 45px;
-    }
-
-    .about-bg {
-      position: absolute;
-      bottom: -10px;
-      left: 0;
-      width: 100%;
-      height: 100px;
-      background: #d9d2cc;
-      z-index: 0;
-    }
-
-    .about-content {
-      display: flex;
-      gap: 40px;
-      align-items: center;
-      position: relative;
-      z-index: 1;
-    }
-
-    .about img {
-      width: 250px;
-      border-radius: 10px;
-      margin-bottom: 10px;
-      transform: translateX(-15px); 
-    }
-
-    .projects {
-      margin-top: 60px;
-    }
-
-    .project-grid {
-      display: flex;
-      gap: 20px;
-    }
-
-    .project {
-      padding: 15px;
-      width: 45%;
-    }
-
-    .img-bg {
-      background: #e5dfda;
-      padding: 15px;
-      border-radius: 10px;
-    }
-
-    .project img {
-      width: 100%;
-      border-radius: 10px;
-      display: block;
-    }
-
-    .contact {
-      margin-top: 60px;
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      gap: 40px;
-    }
-
-    .contact-box {
-      background: #e5dfda;
-      padding: 20px;
-      border-radius: 10px;
-      width: 40%;
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      margin-top: 40px;
-      font-size: 14px;
-      background: #ddd;
-    }
-  </style>
+  <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
@@ -142,10 +13,12 @@
   <img src="logo.jpg" alt="Logo" width="50" height="50">
 
   <nav>
-    <a href="#">HOME</a>
-    <a href="#">ABOUT</a>
-    <a href="#">PROJECTS</a>
-    <a href="#">CONTACTS</a>
+    <ul>
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#project">PROJECTS</a></li>
+      <li><a href="#contacts">CONTACTS</a></li>
+    </ul>
   </nav>
 </header>
 

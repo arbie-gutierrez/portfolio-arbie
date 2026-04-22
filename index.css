@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #333;
+}
+
+p {
+  text-align: justify;
+}
+
+h1, h2, h3, h4 {
+  text-align: left;
+}
+
+header {
+  background: #d9d2cc;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  color: #000;
+}
+
+.container {
+  padding: 40px;
+}
+
+.hero {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.hero img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.about {
+  margin-top: 20px;
+  display: flex;
+  gap: 35px;
+  align-items: center;
+  position: relative;
+  padding-bottom: 45px;
+}
+
+.about-bg {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: #d9d2cc;
+  z-index: 0;
+}
+
+.about-content {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.about img {
+  width: 250px;
+  border-radius: 10px;
+  transform: translateX(-15px);
+}
+
+.projects {
+  margin-top: 60px;
+}
+
+.project-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.project {
+  padding: 15px;
+  width: 45%;
+}
+
+.img-bg {
+  background: #e5dfda;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+
+.contact {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.contact-box {
+  background: #e5dfda;
+  padding: 20px;
+  border-radius: 10px;
+  width: 40%;
+}
+
+.contact-box a {
+  display: inline-block;
+  margin-top: 5px;
+  text-decoration: none;
+  color: #333;
+}
+
+.contact-box a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 14px;
+  background: #ddd;
+}
